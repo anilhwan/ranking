@@ -310,7 +310,7 @@ a{color: #333;}
     .side-menu{left:10%}
 }
 @media screen and (max-width:1400px) {
-    .side-btn{display: none;}
+    .side-btn{display: none !important;}
 }
 @media screen and (max-width:1200px) {
     .container{width: 100%; padding:0 20px; box-sizing: border-box;}
