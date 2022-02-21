@@ -85,7 +85,7 @@ var swiper3 = new Swiper(".mySwiper", {
   });
 //  타임세일 타이머
 (function counter(){
-	var dday = new Date(2021,11,31,23,59,59) //디데이
+	var dday = new Date(2022,11,31,23,59,59) //디데이
 	setInterval(function(){
 		var now = new Date(); //현재 날짜 가져오기
 		var distance = dday - now;
